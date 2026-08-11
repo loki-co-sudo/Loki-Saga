@@ -1,0 +1,21 @@
+{
+  "name": "loki-articles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "zenn preview",
+    "new:article": "zenn new:article",
+    "post:qiita": "node --env-file-if-exists=.env scripts/post-qiita.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "zenn-cli": "^0.5.2"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

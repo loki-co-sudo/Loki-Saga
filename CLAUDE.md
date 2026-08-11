@@ -1,0 +1,45 @@
+# CLAUDE.md — loki-articles
+
+このリポジトリで作業するAIエージェント向けの指示書。
+
+## このリポジトリの役割
+
+`~/projects` 配下のアプリ開発や TryHackMe のルーム攻略から得た知見を、Zenn / Qiita 向けの
+技術記事として下書き・管理する。**投稿までは自動化するが、公開の可否判断は自動化しない。**
+
+## 記事を書くトリガー
+
+以下のいずれかが起きたとき、聞かれなくても記事化を提案してよい。
+
+- `~/projects` 配下のアプリで、機能追加やバグ修正が一区切りして `verify` 相当が通った
+- TryHackMe のルームを攻略した
+- その他、技術的に面白い問題を解決したとユーザー(ひろ)自身が言った
+
+## 記事作成の手順
+
+1. `templates/article-template.md` の内容を元に、`npx zenn new:article` で作った
+   `articles/xxxxx.md` に下書きを書く。
+2. 下書きの「サマリー」節(公開確認用、記事本文には含めない)をチャットに貼り、
+   ユーザーに公開の可否を確認する。**この確認を飛ばして公開してはいけない。**
+3. OKが出たら:
+   - Zenn: `published: true` にして `git push`(Zennと連携したGitHubリポジトリへのpushで
+     自動反映される)。
+   - Qiita: `npm run post:qiita -- articles/xxxxx.md --confirm` を実行する。
+     `--confirm` を付けない場合はドライラン(内容表示のみ)になる。
+
+## 絶対に守ること
+
+- **公開判断をAIだけで完結させない。** 毎回チャットで明示的なOK(「公開していいよ」等)を
+  得てから、pushまたは `post:qiita --confirm` を実行する。
+- **TryHackMeのルーム攻略記事は、flag(正解の文字列)そのものを載せない。** 手法・考え方の
+  説明にとどめる(ユーザーが個別にTryHackMeの規約を確認した上で例外を認めない限り)。
+- 情報セキュリティ系の自作ツール(Loki-Hearing・Loki-KillSwitch・
+  Loki-Protection-for-Kali-Linux・Loki-Watchtower)を記事化する場合、**実装コードそのものは
+  載せない。** 設計判断・学びの言語化にとどめる(公開リポジトリではないため)。
+- `.env` の `QIITA_TOKEN` をコミットしない。チャットにも貼らない。
+
+## Git
+
+- 公開判断とgit操作は別軸。ローカルでのコミットは通常のリポジトリと同様に進めてよいが、
+  `articles/` 配下の `published: true` への変更を含むpushだけは、事前のチャット確認が
+  前提。
