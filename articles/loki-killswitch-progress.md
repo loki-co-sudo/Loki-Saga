@@ -3,7 +3,7 @@ title: "VPNが切れた瞬間に通信を止める『キルスイッチ』を自
 emoji: "🔌"
 type: "idea"
 topics: ["security", "python", "linux", "個人開発"]
-published: false
+published: true
 ---
 
 ## 導入

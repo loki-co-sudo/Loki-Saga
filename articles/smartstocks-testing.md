@@ -3,7 +3,7 @@ title: "個人開発でも、テストとCIはここまでやれる"
 emoji: "🧪"
 type: "idea"
 topics: ["nextjs", "jest", "playwright", "githubactions", "個人開発"]
-published: false
+published: true
 ---
 
 ## 導入

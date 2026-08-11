@@ -3,7 +3,7 @@ title: "AI関連ニュースと情報セキュリティニュースを、日本�
 emoji: "🐦"
 type: "idea"
 topics: ["pwa", "個人開発", "vercel", "rss"]
-published: false
+published: true
 ---
 
 ## 作ったもの

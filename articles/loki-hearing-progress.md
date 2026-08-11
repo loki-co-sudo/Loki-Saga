@@ -3,7 +3,7 @@ title: "AIに『見張らせて、最後の判断だけは人間が握る』EDR�
 emoji: "🛡️"
 type: "idea"
 topics: ["security", "rust", "python", "llm", "個人開発"]
-published: false
+published: true
 ---
 
 ## 導入

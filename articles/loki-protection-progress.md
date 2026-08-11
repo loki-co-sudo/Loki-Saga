@@ -3,7 +3,7 @@ title: "セキュリティソフト無しのKali Linuxを、自分で守る仕�
 emoji: "🐉"
 type: "idea"
 topics: ["security", "python", "linux", "個人開発"]
-published: false
+published: true
 ---
 
 ## 導入

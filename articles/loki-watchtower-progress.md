@@ -3,7 +3,7 @@ title: "自作セキュリティツール2つのログを、1画面にまとめ�
 emoji: "🗼"
 type: "idea"
 topics: ["security", "python", "fastapi", "個人開発"]
-published: false
+published: true
 ---
 
 ## 導入

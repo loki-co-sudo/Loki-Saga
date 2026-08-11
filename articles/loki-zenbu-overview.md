@@ -3,7 +3,7 @@ title: "カレンダーも電卓もチンチロも。日常づかいの道具を
 emoji: "🧰"
 type: "idea"
 topics: ["pwa", "個人開発", "react", "typescript"]
-published: false
+published: true
 ---
 
 ## 作ったもの
