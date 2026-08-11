@@ -4,6 +4,7 @@ emoji: "🐦"
 type: "idea"
 topics: ["pwa", "個人開発", "vercel", "rss"]
 published: true
+published_at: '2026-08-16 08:00'
 ---
 
 ## 作ったもの

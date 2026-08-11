@@ -4,6 +4,7 @@ emoji: "🧰"
 type: "idea"
 topics: ["pwa", "個人開発", "react", "typescript"]
 published: true
+published_at: '2026-08-14 08:00'
 ---
 
 ## 作ったもの

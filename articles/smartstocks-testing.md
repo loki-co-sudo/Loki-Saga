@@ -4,6 +4,7 @@ emoji: "🧪"
 type: "idea"
 topics: ["nextjs", "jest", "playwright", "githubactions", "個人開発"]
 published: true
+published_at: '2026-08-20 08:00'
 ---
 
 ## 導入

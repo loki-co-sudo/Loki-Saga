@@ -4,6 +4,7 @@ emoji: "🎲"
 type: "tech"
 topics: ["typescript", "react", "pwa", "randomseed", "gamedev"]
 published: true
+published_at: '2026-08-18 08:00'
 ---
 
 ## 導入
