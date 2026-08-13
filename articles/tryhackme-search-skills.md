@@ -5,11 +5,6 @@ type: "tech"
 topics: ["security", "osint", "tryhackme", "cybersecurity"]
 published: true
 ---
-## サマリー(公開確認用、記事本文には含めない)
-
-- 何についての記事か: TryHackMeの学習コンテンツ「Search Skills」を通して知った、セキュリティ調査に使う代表的な情報源(Shodan・VirusTotal・CVEデータベース・manページ・GitHub)の使い分けについて
-- なぜ書く価値があるか: 攻略記事ではなく「調査の作法」を扱う内容なので、flagや具体的な攻略手順を書かずに、初学者向けの学びとしてそのまま公開できる
-- 自分の言葉で説明できるか: できる。各ツールを何のために・どういう場面で使うかを自分の理解として整理した
 
 ## 導入
 
