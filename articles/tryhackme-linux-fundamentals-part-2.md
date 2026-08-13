@@ -3,7 +3,7 @@ title: "TryHackMe「Linux Fundamentals Part 2」学習ノート"
 emoji: "🐧"
 type: "tech"
 topics: ["linux", "tryhackme", "security", "ssh", "beginner"]
-published: false
+published: true
 ---
 
 ## この記事について
