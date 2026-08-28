@@ -3,7 +3,7 @@ title: "TryHackMe「Linux Shells」学習ノート"
 emoji: "🐚"
 type: "tech"
 topics: ["linux", "tryhackme", "security", "bash", "beginner"]
-published: false
+published: true
 ---
 
 ## この記事について
